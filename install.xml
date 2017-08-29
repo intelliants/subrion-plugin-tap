@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module type="plugin" name="tap">
+    <title>Tap</title>
+    <summary>Tap payment gateway integration. Allows to accept payments using Tap</summary>
+    <author>Intelliants LLC</author>
+    <contributor>Intelliants LLC</contributor>
+    <version>1.0.0</version>
+    <date>2017-08-29</date>
+    <category>payments</category>
+    <compatibility>4.1.0</compatibility>
+
+    <config group="financial" name="tap" type="divider">Tap</config>
+    <config group="financial" name="tap_demo_mode" type="radio" description="Demo mode" values="0,1">1</config>
+    <config group="financial" name="tap_currency_code" type="text" description="Tap currency code">KWD</config>
+    <config group="financial" name="tap_merchant_id" type="text" description="Tap merchant ID">1014</config>
+    <config group="financial" name="tap_username" type="text" description="Tap username">test</config>
+    <config group="financial" name="tap_password" type="text" description="Tap password">test</config>
+    <config group="financial" name="tap_password" type="text" description="Tap password">test</config>
+    <config group="financial" name="tap_api_key" type="text" description="Tap API key">1tap7</config>
+    <config group="financial" name="tap_gateways" type="select" description="Payment gateways" values="ALL,KNET,VISA,MASTER,AMEX">ALL</config>
+
+    <hooks>
+        <hook name="paymentButtons" type="smarty" filename="button" page_type="front"><![CDATA[]]></hook>
+    </hooks>
+</module>
