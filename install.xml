@@ -15,7 +15,6 @@
     <config group="financial" name="tap_merchant_id" type="text" description="Tap merchant ID">1014</config>
     <config group="financial" name="tap_username" type="text" description="Tap username">test</config>
     <config group="financial" name="tap_password" type="text" description="Tap password">test</config>
-    <config group="financial" name="tap_password" type="text" description="Tap password">test</config>
     <config group="financial" name="tap_api_key" type="text" description="Tap API key">1tap7</config>
     <config group="financial" name="tap_gateways" type="select" description="Payment gateways" values="ALL,KNET,VISA,MASTER,AMEX">ALL</config>
 
